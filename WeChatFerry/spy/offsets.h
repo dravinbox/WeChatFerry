@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include <cstdint>
 
@@ -7,8 +7,8 @@ namespace Offsets
 
 namespace Account
 {
-    constexpr uint64_t SERVICE = 0x1B58B50; // 账户服务
-    constexpr uint64_t PATH    = 0x25E9090; // 数据路径
+    constexpr uint64_t SERVICE = 0x1B5CA40; // 账户服务 0x1B58B50
+    constexpr uint64_t PATH    = 0x25F4A40; // 数据路径 0x25E9090
     constexpr uint64_t WXID    = 0x80;      // WXID
     constexpr uint64_t NAME    = 0x1E8;     // 昵称
     constexpr uint64_t MOBILE  = 0x128;     // 手机号
