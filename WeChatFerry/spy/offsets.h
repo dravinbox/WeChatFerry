@@ -138,8 +138,8 @@ namespace Message
 
 namespace Misc
 {
-    // constexpr uint64_t QR_CODE = 0x2025A80; //
-    constexpr uint64_t QR_CODE = 0x202D3C0; //51
+    constexpr uint64_t QR_CODE = 0x2025A80; 
+    // constexpr uint64_t QR_CODE = 0x202D3C0; //51
 
     constexpr uint64_t INSATNCE         = Message::Send::INSTANCE;
     constexpr uint64_t FREE             = Message::Send::FREE;
