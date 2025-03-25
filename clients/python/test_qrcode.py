@@ -22,6 +22,9 @@ def test_qrcode():
     qr_url = wcf.get_qrcode()
 
     LOG.info(f"qr_url: {qr_url}")
+
+    # 一直运行
+    wcf.keep_running()
   
 
 
